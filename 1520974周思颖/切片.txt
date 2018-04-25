@@ -1,0 +1,7 @@
+>>> def rev():
+	s='abcde'
+	return s[::-1]
+
+>>> rev()
+'edcba'
+>>> 
