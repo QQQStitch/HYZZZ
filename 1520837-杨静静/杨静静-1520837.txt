@@ -1,0 +1,6 @@
+#�ݹ鷴ת
+def reverse2(s):
+    if s=="":
+       return s
+    else:
+       return reverserse2(s[1:])+s[0]
