@@ -1,0 +1,7 @@
+def zz(n,start,buffer,end):
+   if(n==1):
+       print("from",start,"move",n,"to",end)
+   else:
+       zz(n-1,start,end,buffer)
+       zz(1,start,buffer,end)
+       zz(n-1,buffer,start,end)
